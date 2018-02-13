@@ -17,7 +17,7 @@ public class DecathlonCompetitionApp {
 
     public static void main(String args[]) throws FileNotFoundException {
 
-        /*String inputFilePath;
+        String inputFilePath;
         String outputFilePath;
 
         if (args.length == 0) {
@@ -33,14 +33,7 @@ public class DecathlonCompetitionApp {
         } else {
             inputFilePath = args[0];
             outputFilePath = args[1];
-        }*/
-
-
-        String inputFilePath = "/Users/khalid/IdeaProjects/app-decathlon-competition/src/main/resources/decathlon_input.txt";
-        System.out.println("input file path is : " + inputFilePath);
-
-        String outputFilePath = "/Users/khalid/IdeaProjects/app-decathlon-competition/src/main/resources/decathlon_output.xml";
-        System.out.println("output file path is : " + outputFilePath);
+        }
 
         InputFileParser inputFileParser = new InputFileParser(
                 new InputFileReaderProvider(new InputFileFormatToReaderMapper())
