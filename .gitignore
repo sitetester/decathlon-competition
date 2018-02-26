@@ -40,3 +40,4 @@ gradle-app.setting
 /.idea/
 /.nb-gradle/
 /out
+.DS_Store
