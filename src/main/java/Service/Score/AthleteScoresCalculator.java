@@ -79,6 +79,7 @@ public class AthleteScoresCalculator {
      */
     private int calculateFieldEventScore(DecathlonEvent decathlonEvent, float eventScore) {
 
+        // Since jumping events needs to be calculated in centimetres
         if (decathlonEvent.name().equals("FIELD_LONG_JUMP")
                 || decathlonEvent.name().equals("FIELD_HIGH_JUMP")
                 || decathlonEvent.name().equals("FIELD_POLE_VAULT")) {
