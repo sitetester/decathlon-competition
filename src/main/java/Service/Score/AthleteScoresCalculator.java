@@ -54,6 +54,11 @@ public class AthleteScoresCalculator {
 
     /**
      * Points = INT(A(B — P)C) for track events (faster time produces a better score)
+     * <p>
+     * A, B and C are parameters that vary by discipline, while P is the performance by the athlete,
+     * measured in seconds (running), metres (throwing), or centimetres (jumping).
+     * <p>
+     * Also see - https://en.wikipedia.org/wiki/Decathlon#Benchmarks for unit of measurement for each event type
      *
      * @return int
      */
@@ -64,6 +69,11 @@ public class AthleteScoresCalculator {
 
     /**
      * Points = INT(A(P — B)^C) for field events (greater distance or height produces a better score)
+     * <p>
+     * A, B and C are parameters that vary by discipline, while P is the performance by the athlete,
+     * measured in seconds (running), metres (throwing), or centimetres (jumping).
+     * <p>
+     * Also see - https://en.wikipedia.org/wiki/Decathlon#Benchmarks for unit of measurement for each event type
      *
      * @return int
      */

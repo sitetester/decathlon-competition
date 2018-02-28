@@ -2,6 +2,10 @@ package Service.Entity;
 
 /**
  * Event type can be track(time based) or field(distance|height) based
+ * <p>
+ * https://en.wikipedia.org/wiki/Decathlon#Benchmarks shows unit of measurement for each event type
+ * <p>
+ * These hard coded parameters (A, B, C) are taken from table on right of https://en.wikipedia.org/wiki/Decathlon#Points_system
  */
 public enum DecathlonEvent {
 
