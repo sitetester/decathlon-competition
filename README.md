@@ -13,7 +13,8 @@ at the startup. It would be great if an XSL file for viewing the produced XML ni
 
 Some links: 
 * http://en.wikipedia.org/wiki/Decathlon (see formulas are at the end of the page) 
-h* ttp://www.junit.org/ - JUnit http://www.jetbrains.com/ - IntelliJ IDEA download 
+* http://www.junit.org/ - JUnit 
+* http://www.jetbrains.com/ - IntelliJ IDEA download 
 
 * Try to keep your code as readable as possible. We value code simplicity. 
 * Use object-oriented approach with design patterns where applicable. Good luck!
